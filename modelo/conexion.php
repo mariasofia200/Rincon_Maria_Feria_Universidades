@@ -6,15 +6,15 @@
 
 // Parametros BD local      
 
-DEFINE('USER', 'root'); // Crea la constante USER con valor `root`
-DEFINE(constant_name: 'PW', value: '');
+DEFINE('USER', 'root'); // Crea la constante USER con valor root
+DEFINE('PW', '');
 DEFINE('HOST', 'localhost');
 DEFINE('BD', 'Feria_Universidades');
 
 // Parametros BD remota (infinityfree)
 
-/*DEFINE('USER', 'if0_38542093'); // Crea la constante USER con valor `root`
-DEFINE('PW', 'nwnicolas');
+/*DEFINE('USER', 'if0_39794650'); // Crea la constante USER con valor root
+DEFINE('PW', 'RLjMK6fGU6b');
 DEFINE('HOST', 'sql100.infinityfree.com');
 DEFINE('BD', 'if0_38542093_empresa');*/
 

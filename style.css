@@ -1,180 +1,138 @@
-* ======== ESTILOS GENERALES ======== */
-body {
-    font-family: Arial, sans-serif;
+/* --------- RESET --------- */
+* {
     margin: 0;
     padding: 0;
-    background: #fce4ec;
-    text-align: center;
-    color: #333;
+    box-sizing: border-box;
   }
   
-  /* ======== ENCABEZADO ======== */
+  body {
+    font-family: "Poppins", sans-serif;
+    background: #f4f6f9;
+    color: #2c3e50;
+    line-height: 1.7;
+  }
+  
+  /* --------- ENCABEZADO --------- */
   header {
-    background: #45f3aa;
-    color: white;
-    padding: 30px 15px;
+    background: linear-gradient(90deg, #0f172a, #1e3a8a);
+    color: #fff;
+    text-align: center;
+    padding: 70px 20px;
+    border-bottom: 4px solid #facc15;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
   }
   
-  header h1, header h2 {
-    margin: 5px 0;
-    font-weight: bold;
+  header img {
+    max-width: 110px;
+    margin-bottom: 15px;
+    border-radius: 50%;
+    border: 3px solid #facc15;
   }
   
-  /* ======== LOGO HERO ======== */
-  .hero img {
-    width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-    max-height: 80vh;
-    object-fit: cover;
-    border-radius: 10px;
-    box-shadow: 0px 5px 15px rgba(240, 92, 92, 0.644);
+  header h1 {
+    font-size: 2.6rem;
+    font-weight: 700;
+    margin-bottom: 12px;
   }
   
-  /* ======== TEXTO DE INFORMACIÓN ======== */
-  .info {
-    margin: 30px auto;
-    max-width: 900px;
-    font-size: 18px;
-    line-height: 1.6;
-    padding: 0 15px;
+  header h3 {
+    font-weight: 300;
+    font-size: 1.2rem;
+    opacity: 0.9;
   }
   
-  /* ======== BOTONES ======== */
-  .menu {
-    margin: 30px 0;
+  /* --------- CONTENEDOR --------- */
+  .container {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 0 20px;
   }
   
+  /* --------- SECCIONES --------- */
+  section {
+    margin-bottom: 45px;
+    padding: 35px;
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+    border-left: 6px solid #1e3a8a;
+    transition: all 0.3s ease;
+  }
+  
+  section:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+  }
+  
+  section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #1e3a8a;
+  }
+  
+  section p {
+    font-size: 1rem;
+    margin-bottom: 12px;
+    text-align: justify;
+    color: #374151;
+  }
+  
+  /* --------- LISTA --------- */
+  ul {
+    list-style: square inside;
+    padding-left: 10px;
+    color: #0f172a;
+  }
+  
+  ul li {
+    margin-bottom: 8px;
+    font-size: 1rem;
+  }
+  
+  /* --------- IMÁGENES --------- */
+  img {
+    max-width: 100%;
+    border-radius: 12px;
+    margin: 20px 0;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  img:hover {
+    transform: scale(1.04);
+  }
+  
+  /* --------- BOTÓN --------- */
   .btn {
     display: inline-block;
-    margin: 10px;
-    padding: 15px 30px;
-    background: #e09ab2;
+    background: linear-gradient(135deg, #1e40af, #3b82f6);
     color: white;
-    font-size: 18px;
+    padding: 14px 32px;
+    border-radius: 12px;
+    font-size: 1rem;
+    font-weight: 600;
     text-decoration: none;
-    border-radius: 30px;
-    transition: 0.3s;
-    box-shadow: 0px 3px 8px rgba(0,0,0,0.3);
+    transition: all 0.3s ease;
+    box-shadow: 0 6px 18px rgba(59, 130, 246, 0.35);
   }
   
   .btn:hover {
-    background: #dd8cac;
-    transform: scale(1.05);
+    background: linear-gradient(135deg, #2563eb, #1d4ed8);
+    transform: translateY(-2px);
   }
   
-  /* ======== PIE DE PÁGINA ======== */
+  .btn:active {
+    transform: translateY(1px);
+  }
+  
+  /* --------- FOOTER --------- */
   footer {
-    background: #da97b4;
-    color: white;
-    padding: 20px;
-    margin-top: 40px;
-  }
-  
-  /* ======== RESPONSIVE ======== */
-  @media (max-width: 768px) {
-    .info {
-      font-size: 16px;
-    }
-  
-    .btn {
-      display: block;
-      width: 80%;
-      margin: 10px auto;
-      font-size: 16px;
-    }
-  }/* ======== ESTILOS GENERALES ======== */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background: #fce4ec;
+    background: #0f172a;
+    color: #e5e7eb;
     text-align: center;
-    color: #333;
+    padding: 25px;
+    margin-top: 60px;
+    font-size: 0.9rem;
+    border-top: 4px solid #facc15;
   }
   
-  /* ======== ENCABEZADO ======== */
-  header {
-    background: #c984a2;
-    color: white;
-    padding: 30px 15px;
-  }
-  
-  header h1, header h2 {
-    margin: 5px 0;
-    font-weight: bold;
-  }
-  
-  /* ======== LOGO HERO ======== */
-  .hero img {
-    width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-    max-height: 80vh;
-    object-fit: cover;
-    border-radius: 10px;
-    box-shadow: 0px 5px 15px rgba(0,0,0,0.3);
-  }
-  
-  /* ======== TEXTO DE INFORMACIÓN ======== */
-  .info {
-    margin: 30px auto;
-    max-width: 900px;
-    font-size: 18px;
-    line-height: 1.6;
-    padding: 0 15px;
-  }
-  
-  /* ======== BOTONES ======== */
-  .menu {
-    margin: 30px 0;
-  }
-  
-  .btn {
-    display: inline-block;
-    margin: 10px;
-    padding: 15px 30px;
-    background: #e09ab2;
-    color: white;
-    font-size: 18px;
-    text-decoration: none;
-    border-radius: 30px;
-    transition: 0.3s;
-    box-shadow: 0px 3px 8px rgba(0,0,0,0.3);
-  }
-  
-  .btn:hover {
-    background: #dd8cac;
-    transform: scale(1.05);
-  }
-  
-  /* ======== PIE DE PÁGINA ======== */
-  footer {
-    background: #da97b4;
-    color: white;
-    padding: 20px;
-    margin-top: 40px;
-  }
-  
-  /* ======== RESPONSIVE ======== */
-  @media (max-width: 768px) {
-    .info {
-      font-size: 16px;
-    }
-  
-    .btn {
-      display: block;
-      width: 80%;
-      margin: 10px auto;
-      font-size: 16px;
-    }
-  }
-  button{
-    background-color: rgb(248, 208, 155);
-}
-
-body{
-    background-color: rgb(245, 161, 161);
-}
