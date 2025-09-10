@@ -32,7 +32,7 @@ El Colegio San José de Guanentá es una institución educativa de carácter ofi
 el municipio de San Gil – Santander, perteneciente a la Asociación Nacional de
 Colegios Santanderinos.</h3>
     <img src="img/marina.jpg"alt="feria" width="500" height="350">
-    <img src="img/unisangil.jpg"alt="feria" width="500" height="350">
+    <img src="img/marco fidel.jpg"alt="feria" width="500" height="350">
 
 
 <center><button><a href="iniciar_sesion.php">iniciar sesion</a></button></center>
